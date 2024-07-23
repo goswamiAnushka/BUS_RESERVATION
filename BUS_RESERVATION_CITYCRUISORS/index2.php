@@ -196,7 +196,7 @@ $username = isset($_SESSION["name"]) ? htmlspecialchars($_SESSION["name"]) : "Us
         </div>
         
         <div class="ms-auto d-flex">
-            <button class="btn btn-primary me-2" onclick="window.location.href='booking.php'">My Bookings</button>
+            <button class="btn btn-primary me-2" onclick="window.location.href='./booking.php'">My Bookings</button>
             <button class="btn btn-primary" onclick="window.location.href='./logout.php'">Log Out</button>
         </div>
     </div>

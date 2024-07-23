@@ -588,15 +588,9 @@ ALTER TABLE `bus_details`
 ALTER TABLE `discounts`
   MODIFY `discount_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
---
--- AUTO_INCREMENT for table `driver_bus_assignment`
---
 ALTER TABLE `driver_bus_assignment`
   MODIFY `assignment_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
 
---
--- AUTO_INCREMENT for table `driver_details`
---
 ALTER TABLE `driver_details`
   MODIFY `driver_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
