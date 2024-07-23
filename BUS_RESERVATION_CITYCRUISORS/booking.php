@@ -1,18 +1,12 @@
 <?php
 session_start();
-
+require 'db.php'; 
 if (!isset($_SESSION['user_id'])) {
     echo "Please login to view your bookings.";
     exit();
 }
 
-$userId = $_SESSION['user_id'];
 
-$conn = new mysqli('sql304.infinityfree.com', 'if0_36951682', 'aCztWA2z1Ygd', 'if0_36951682_cistycruisers');
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['cancel_ticket'])) {
     $ticketId = $_POST['ticket_id'];

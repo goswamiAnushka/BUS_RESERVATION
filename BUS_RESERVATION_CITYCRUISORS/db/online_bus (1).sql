@@ -18,23 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `online_bus`
+
 --
 
-DELIMITER $$
---
--- Procedures
---
-CREATE DEFINER=`` PROCEDURE `GetAllBookingDetails` ()   BEGIN
-    SELECT 
-        user_id, name, email, contact_number,
-        ticket_id, bus_name, num_passengers, total_fare, travel_date,
-        cancellation_id, refund_amount, cancellation_time
-    FROM 
-        admin_view_all_details;
-END$$
 
-DELIMITER ;
 
 -- --------------------------------------------------------
 
