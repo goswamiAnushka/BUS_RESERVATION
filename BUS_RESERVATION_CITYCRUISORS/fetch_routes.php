@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-$conn = new mysqli("localhost", "root", "", "online_bus");
+$conn = new mysqli("sql304.infinityfree.com", "if0_36951682", "aCztWA2z1Ygd", "if0_36951682_cistycruisers");
 
 // Check connection
 if ($conn->connect_error) {

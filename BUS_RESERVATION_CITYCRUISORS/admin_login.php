@@ -1,9 +1,10 @@
 <?php
 // Establish database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "online_bus";
+$servername = "sql304.infinityfree.com";
+$username = "if0_36951682";
+$password = "aCztWA2z1Ygd";
+$dbname = "if0_36951682_cistycruisers";
+
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

@@ -1,9 +1,9 @@
 <?php
 // db.php
-$host = 'localhost'; // or IP address
-$dbname = 'online_bus';
-$username = 'root';
-$password = '';
+$host = 'sql304.infinityfree.com'; // or IP address
+$dbname = 'if0_36951682_cistycruisers';
+$username = 'if0_36951682';
+$password = 'aCztWA2z1Ygd';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

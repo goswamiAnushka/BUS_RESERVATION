@@ -2,10 +2,10 @@
 session_start();
 
 // Database connection parameters
-$host = 'localhost';
-$dbname = 'online_bus';
-$username = 'root';
-$password = '';
+$host = 'sql304.infinityfree.com';
+$dbname = 'if0_36951682_cistycruisers';
+$username = 'if0_36951682';
+$password = 'aCztWA2z1Ygd';
 
 // Create a new database connection
 $conn = new mysqli($host, $username, $password, $dbname);
